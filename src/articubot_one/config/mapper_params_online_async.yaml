@@ -1,7 +1,7 @@
 slam_toolbox:
   ros__parameters:
 
-    # Plugin params here
+    # Plugin params here now
     solver_plugin: solver_plugins::CeresSolver
     ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
     ceres_preconditioner: SCHUR_JACOBI
