@@ -136,6 +136,8 @@
     <gazebo reference="lidar_plate">
         <material>Gazebo/Orange</material>
     </gazebo>
+
+    <!--wheels start here-->
 <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link" />
     <child link="left_wheel" />
