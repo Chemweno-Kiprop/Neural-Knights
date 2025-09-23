@@ -138,6 +138,7 @@
     </gazebo>
 
     <!--wheels start here-->
+    <!--LEFT WHEEL-->
 <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link" />
     <child link="left_wheel" />
@@ -168,6 +169,8 @@
     </gazebo>
 
 
+
+    <!--RIGHT WHEEL-->
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link" />
         <child link="right_wheel" />
@@ -229,6 +232,8 @@
     </gazebo>
     -->
 
+
+    <!--BACK CASTER WHEEL-->
     <joint name="back_caster_wheel_joint" type="fixed">
         <parent link="chassis" />
         <child link="back_caster_wheel" />
