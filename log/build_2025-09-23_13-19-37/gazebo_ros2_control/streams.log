@@ -1,0 +1,35 @@
+[0.220s] Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[1.363s] [ 50%] Built target gazebo_ros2_control
+[1.936s] [100%] Built target gazebo_hardware_plugins
+[2.029s] Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[2.043s] Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control
+[2.116s] -- Install configuration: ""
+[2.121s] -- Execute custom install script
+[2.131s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[2.140s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[2.142s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[2.143s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[2.146s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[2.148s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[2.149s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[2.151s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[2.153s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[2.154s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[2.155s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[2.156s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[2.157s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[2.157s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[2.161s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[2.164s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[2.167s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[2.168s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[2.170s] -- Symlinking: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[2.221s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[2.228s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[2.257s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.258s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.259s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.260s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[2.261s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[2.269s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[2.270s] Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control

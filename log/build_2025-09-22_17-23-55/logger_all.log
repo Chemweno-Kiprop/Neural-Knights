@@ -1,0 +1,467 @@
+[0.492s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.492s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f679bdee950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f679bdee1d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f679bdee1d0>>, mixin_verb=('build',))
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chemweno/Neural-Knights'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[1.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['cmake', 'python']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'cmake'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['python_setup_py']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python_setup_py'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ros']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ros'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'cmake'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ignore'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ignore_ament_install'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['colcon_pkg']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'colcon_pkg'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['colcon_meta']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'colcon_meta'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['ros']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ros'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['cmake', 'python']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'cmake'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'python'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['python_setup_py']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'python_setup_py'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ignore'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ignore_ament_install'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['colcon_pkg']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'colcon_pkg'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['colcon_meta']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'colcon_meta'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['ros']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ros'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['cmake', 'python']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'cmake'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'python'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['python_setup_py']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'python_setup_py'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[1.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[1.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.540s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/chemweno/Neural-Knights/install
+[1.550s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/humble
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.795s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[1.795s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[1.795s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.796s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chemweno/Neural-Knights/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chemweno/Neural-Knights/install/articubot_one', 'merge_install': False, 'path': '/home/chemweno/Neural-Knights/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[1.798s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[1.798s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.798s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.799s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.799s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chemweno/Neural-Knights/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chemweno/Neural-Knights/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.802s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.802s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chemweno/Neural-Knights/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chemweno/Neural-Knights/install/serial', 'merge_install': False, 'path': '/home/chemweno/Neural-Knights/src/serial', 'symlink_install': True, 'test_result_base': None}
+[1.804s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.805s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.806s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chemweno/Neural-Knights/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chemweno/Neural-Knights/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/chemweno/Neural-Knights/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[1.807s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.809s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[1.809s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.813s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.814s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[1.814s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control'
+[1.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chemweno/Neural-Knights/src/serial' with build type 'ament_cmake'
+[1.856s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chemweno/Neural-Knights/src/serial'
+[1.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chemweno/Neural-Knights/src/articubot_one' with build type 'ament_cmake'
+[1.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chemweno/Neural-Knights/src/articubot_one'
+[1.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[1.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/serial -- -j4 -l4
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/articubot_one -- -j4 -l4
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/articubot_one -- -j4 -l4
+[2.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/articubot_one
+[2.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[2.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/articubot_one
+[2.482s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one' for CMake module files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one' for CMake config files
+[2.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[2.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/bin'
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/lib/python3.10/site-packages'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/bin'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.ps1'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.sh'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.zsh'
+[2.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one' for CMake module files
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one' for CMake config files
+[2.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[2.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/bin'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/lib/python3.10/site-packages'
+[2.610s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/articubot_one/bin'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.ps1'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.dsv'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.sh'
+[2.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.bash'
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.zsh'
+[2.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[2.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control
+[2.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/serial -- -j4 -l4
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/serial
+[2.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control' for CMake module files
+[2.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control' for CMake config files
+[2.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib'
+[2.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/bin'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/bin'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[2.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[2.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control' for CMake module files
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control' for CMake config files
+[2.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib'
+[2.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/bin'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[2.926s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/bin'
+[2.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[2.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[2.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[2.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[2.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[2.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos'
+[2.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[2.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/serial
+[2.975s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial' for CMake module files
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial' for CMake config files
+[2.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[2.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[2.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib'
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/bin'
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib/pkgconfig/serial.pc'
+[2.993s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib/python3.10/site-packages'
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/bin'
+[2.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.ps1'
+[2.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/serial/share/serial/package.dsv'
+[3.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.sh'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.bash'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.zsh'
+[3.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/serial/share/colcon-core/packages/serial)
+[3.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial' for CMake module files
+[3.012s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial' for CMake config files
+[3.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/bin'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib/pkgconfig/serial.pc'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/lib/python3.10/site-packages'
+[3.023s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/serial/bin'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.ps1'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/serial/share/serial/package.dsv'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.sh'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.bash'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/serial/share/serial/package.zsh'
+[3.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/serial/share/colcon-core/packages/serial)
+[3.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chemweno/Neural-Knights/src/diffdrive_arduino' with build type 'ament_cmake'
+[3.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chemweno/Neural-Knights/src/diffdrive_arduino'
+[3.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib:/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib:/home/chemweno/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos -- -j4 -l4
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/diffdrive_arduino -- -j4 -l4
+[3.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/diffdrive_arduino -- -j4 -l4
+[3.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/diffdrive_arduino
+[3.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib:/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib:/home/chemweno/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos -- -j4 -l4
+[3.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib:/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib:/home/chemweno/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos
+[3.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino' for CMake module files
+[3.905s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino' for CMake config files
+[3.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[3.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/diffdrive_arduino
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[3.952s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib'
+[3.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[3.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[3.960s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/bin'
+[3.961s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[3.962s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/python3.10/site-packages'
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/bin'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[3.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[3.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[3.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[3.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino' for CMake module files
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino' for CMake config files
+[3.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib'
+[3.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[3.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[3.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/bin'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/python3.10/site-packages'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/diffdrive_arduino/bin'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[4.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[4.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[4.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[4.026s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos' for CMake module files
+[4.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/chemweno/Neural-Knights/install/gazebo_ros2_control/lib:/home/chemweno/Neural-Knights/install/diffdrive_arduino/lib:/home/chemweno/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos
+[4.032s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos' for CMake config files
+[4.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[4.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[4.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/bin'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[4.049s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/bin'
+[4.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[4.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[4.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[4.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[4.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[4.071s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos' for CMake module files
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos' for CMake config files
+[4.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib'
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/bin'
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/bin'
+[4.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[4.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[4.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[4.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[4.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[4.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[4.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.133s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.183s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chemweno/Neural-Knights/install/local_setup.ps1'
+[4.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chemweno/Neural-Knights/install/_local_setup_util_ps1.py'
+[4.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chemweno/Neural-Knights/install/setup.ps1'
+[4.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chemweno/Neural-Knights/install/local_setup.sh'
+[4.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chemweno/Neural-Knights/install/_local_setup_util_sh.py'
+[4.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chemweno/Neural-Knights/install/setup.sh'
+[4.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chemweno/Neural-Knights/install/local_setup.bash'
+[4.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chemweno/Neural-Knights/install/setup.bash'
+[4.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chemweno/Neural-Knights/install/local_setup.zsh'
+[4.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chemweno/Neural-Knights/install/setup.zsh'

@@ -1,0 +1,36 @@
+[0.300s] Invoking command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/diffdrive_arduino -- -j4 -l4
+[0.866s] [ 57%] Built target diffdrive_arduino
+[0.925s] [100%] Built target fake_robot
+[1.078s] Invoked command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/diffdrive_arduino -- -j4 -l4
+[1.087s] Invoking command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/diffdrive_arduino
+[1.178s] -- Install configuration: ""
+[1.187s] -- Execute custom install script
+[1.194s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[1.202s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[1.203s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[1.204s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/lib/libfake_robot.so
+[1.205s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[1.206s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[1.207s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[1.226s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[1.227s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[1.228s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[1.229s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[1.231s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[1.232s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[1.250s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[1.251s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[1.252s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[1.253s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[1.267s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[1.267s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[1.279s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[1.281s] -- Symlinking: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[1.316s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[1.318s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[1.320s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[1.322s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.324s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[1.325s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[1.327s] -- Up-to-date symlink: /home/chemweno/Neural-Knights/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[1.371s] Invoked command in '/home/chemweno/Neural-Knights/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/chemweno/Neural-Knights/install/serial:/home/chemweno/Neural-Knights/install/diffdrive_arduino:/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos:/home/chemweno/Neural-Knights/install/gazebo_ros2_control:/home/chemweno/Neural-Knights/install/articubot_one:/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/diffdrive_arduino

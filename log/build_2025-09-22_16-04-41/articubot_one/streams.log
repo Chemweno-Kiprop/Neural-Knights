@@ -1,0 +1,72 @@
+[0.123s] Invoking command in '/home/chemweno/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chemweno/Neural-Knights/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chemweno/Neural-Knights/install/articubot_one
+[0.494s] -- The C compiler identification is GNU 11.4.0
+[0.860s] -- The CXX compiler identification is GNU 11.4.0
+[0.910s] -- Detecting C compiler ABI info
+[1.357s] -- Detecting C compiler ABI info - done
+[1.456s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.459s] -- Detecting C compile features
+[1.463s] -- Detecting C compile features - done
+[1.495s] -- Detecting CXX compiler ABI info
+[2.042s] -- Detecting CXX compiler ABI info - done
+[2.117s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.119s] -- Detecting CXX compile features
+[2.123s] -- Detecting CXX compile features - done
+[2.143s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.960s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.345s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.498s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.998s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.023s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.026s] -- Added test 'lint_cmake' to check CMake code style
+[4.036s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.050s] -- Added test 'xmllint' to check XML markup files
+[4.078s] -- Configuring done
+[4.082s] -- Generating done
+[4.092s] -- Build files have been written to: /home/chemweno/Neural-Knights/build/articubot_one
+[4.137s] Invoked command in '/home/chemweno/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chemweno/Neural-Knights/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chemweno/Neural-Knights/install/articubot_one
+[4.155s] Invoking command in '/home/chemweno/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/articubot_one -- -j4 -l4
+[4.387s] Invoked command in '/home/chemweno/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/articubot_one -- -j4 -l4
+[4.430s] Invoking command in '/home/chemweno/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/articubot_one
+[4.470s] -- Install configuration: ""
+[4.474s] -- Execute custom install script
+[4.483s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/empty.yaml
+[4.556s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[4.629s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[4.697s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/joystick.yaml
+[4.733s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/map_navigation.rviz
+[4.775s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[4.810s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[4.853s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[4.897s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[4.942s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[4.988s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[5.031s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[5.080s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[5.125s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/description/robot_all.xacro
+[5.161s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[5.203s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[5.315s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[5.418s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[5.513s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[5.621s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[5.701s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[5.795s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[5.861s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[5.917s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/worlds/empty.world
+[5.997s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/worlds/world1.world
+[6.095s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[6.189s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[6.293s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[6.388s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[6.491s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/environment/path.sh
+[6.570s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/environment/path.dsv
+[6.662s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.bash
+[6.709s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.sh
+[6.773s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.zsh
+[6.889s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.dsv
+[6.998s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.dsv
+[7.117s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[7.219s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[7.384s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[7.560s] -- Symlinking: /home/chemweno/Neural-Knights/install/articubot_one/share/articubot_one/package.xml
+[7.709s] Invoked command in '/home/chemweno/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/articubot_one
