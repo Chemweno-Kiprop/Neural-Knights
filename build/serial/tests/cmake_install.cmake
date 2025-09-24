@@ -1,8 +1,8 @@
-# Install script for directory: /home/chemweno/Neural-Knights/src/serial/tests
+# Install script for directory: /home/neural/Neural-Knights/src/serial/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chemweno/Neural-Knights/install/serial")
+  set(CMAKE_INSTALL_PREFIX "/home/neural/Neural-Knights/install/serial")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chemweno/Neural-Knights/build/serial/gtest/cmake_install.cmake")
+  include("/home/neural/Neural-Knights/build/serial/gtest/cmake_install.cmake")
 
 endif()
 

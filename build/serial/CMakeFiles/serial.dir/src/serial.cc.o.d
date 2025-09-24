@@ -1,5 +1,5 @@
 CMakeFiles/serial.dir/src/serial.cc.o: \
- /home/chemweno/Neural-Knights/src/serial/src/serial.cc \
+ /home/neural/Neural-Knights/src/serial/src/serial.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -99,7 +99,7 @@ CMakeFiles/serial.dir/src/serial.cc.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/chemweno/Neural-Knights/src/serial/include/serial/serial.h \
+ /home/neural/Neural-Knights/src/serial/include/serial/serial.h \
  /usr/include/c++/11/limits /usr/include/c++/11/string \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
@@ -175,5 +175,5 @@ CMakeFiles/serial.dir/src/serial.cc.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/chemweno/Neural-Knights/src/serial/include/serial/v8stdint.h \
- /home/chemweno/Neural-Knights/src/serial/include/serial/impl/unix.h
+ /home/neural/Neural-Knights/src/serial/include/serial/v8stdint.h \
+ /home/neural/Neural-Knights/src/serial/include/serial/impl/unix.h

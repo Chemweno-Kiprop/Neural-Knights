@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/build/serial/ament_cmake_environment_hooks/local_setup.zsh
+/home/neural/Neural-Knights/build/serial/ament_cmake_environment_hooks/local_setup.zsh

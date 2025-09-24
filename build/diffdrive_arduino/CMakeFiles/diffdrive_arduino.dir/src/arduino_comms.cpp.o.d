@@ -1,8 +1,8 @@
 CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o: \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/src/arduino_comms.cpp \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/src/arduino_comms.cpp \
  /usr/include/stdc-predef.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/arduino_comms.h \
- /home/chemweno/Neural-Knights/install/serial/include/serial/serial.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/arduino_comms.h \
+ /home/neural/Neural-Knights/install/serial/include/serial/serial.h \
  /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -158,7 +158,7 @@ CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/chemweno/Neural-Knights/install/serial/include/serial/v8stdint.h \
+ /home/neural/Neural-Knights/install/serial/include/serial/v8stdint.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \

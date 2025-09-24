@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos
+CMAKE_BINARY_DIR = /home/neural/Neural-Knights/build/gazebo_ros2_control_demos
 
 # Utility rule file for gazebo_ros2_control_demos_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/compiler_depend.make
 include CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/progress.make
 
 CMakeFiles/gazebo_ros2_control_demos_uninstall:
-	/usr/bin/cmake -P /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/neural/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gazebo_ros2_control_demos_uninstall: CMakeFiles/gazebo_ros2_control_demos_uninstall
 gazebo_ros2_control_demos_uninstall: CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/clean:
 .PHONY : CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/clean
 
 CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/depend:
-	cd /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos /home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos/CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/neural/Neural-Knights/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/neural/Neural-Knights/build/gazebo_ros2_control_demos /home/neural/Neural-Knights/build/gazebo_ros2_control_demos /home/neural/Neural-Knights/build/gazebo_ros2_control_demos/CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gazebo_ros2_control_demos_uninstall.dir/depend
 

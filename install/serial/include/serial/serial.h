@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/src/serial/include/serial/serial.h
+/home/neural/Neural-Knights/src/serial/include/serial/serial.h

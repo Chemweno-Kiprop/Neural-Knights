@@ -1,7 +1,7 @@
 CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o: \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/src/diffdrive_arduino.cpp \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/src/diffdrive_arduino.cpp \
  /usr/include/stdc-predef.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h \
  /usr/include/c++/11/cstring \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -654,11 +654,11 @@ CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o: \
  /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/config.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/wheel.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/arduino_comms.h \
- /home/chemweno/Neural-Knights/install/serial/include/serial/serial.h \
- /home/chemweno/Neural-Knights/install/serial/include/serial/v8stdint.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/config.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/wheel.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/arduino_comms.h \
+ /home/neural/Neural-Knights/install/serial/include/serial/serial.h \
+ /home/neural/Neural-Knights/install/serial/include/serial/v8stdint.h \
  /opt/ros/humble/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \

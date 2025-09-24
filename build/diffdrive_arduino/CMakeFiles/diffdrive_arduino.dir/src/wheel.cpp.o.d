@@ -1,7 +1,7 @@
 CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o: \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/src/wheel.cpp \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/src/wheel.cpp \
  /usr/include/stdc-predef.h \
- /home/chemweno/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/wheel.h \
+ /home/neural/Neural-Knights/src/diffdrive_arduino/include/diffdrive_arduino/wheel.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

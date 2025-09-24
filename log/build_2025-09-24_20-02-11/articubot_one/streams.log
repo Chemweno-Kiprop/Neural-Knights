@@ -1,0 +1,72 @@
+[0.021s] Invoking command in '/home/neural/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neural/Neural-Knights/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/articubot_one
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.253s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.382s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.535s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.941s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.061s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.067s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.068s] -- Added test 'lint_cmake' to check CMake code style
+[1.070s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.073s] -- Added test 'xmllint' to check XML markup files
+[1.076s] -- Configuring done
+[1.080s] -- Generating done
+[1.083s] -- Build files have been written to: /home/neural/Neural-Knights/build/articubot_one
+[1.093s] Invoked command in '/home/neural/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neural/Neural-Knights/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/articubot_one
+[1.094s] Invoking command in '/home/neural/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neural/Neural-Knights/build/articubot_one -- -j4 -l4
+[1.140s] Invoked command in '/home/neural/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neural/Neural-Knights/build/articubot_one -- -j4 -l4
+[1.151s] Invoking command in '/home/neural/Neural-Knights/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neural/Neural-Knights/build/articubot_one
+[1.159s] -- Install configuration: ""
+[1.160s] -- Execute custom install script
+[1.161s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.177s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.190s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.202s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/joystick.yaml
+[1.213s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/map_navigation.rviz
+[1.226s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.239s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.252s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.263s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.275s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.288s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.300s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.312s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.324s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/description/robot_all.xacro
+[1.342s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.356s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.364s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.374s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.383s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.391s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.404s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.418s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.453s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.466s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.479s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/worlds/world1.world
+[1.494s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.514s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.527s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.539s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.554s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/environment/path.sh
+[1.566s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.577s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.bash
+[1.589s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.sh
+[1.603s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.619s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.634s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/package.dsv
+[1.645s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.656s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.668s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.688s] -- Symlinking: /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/package.xml
+[1.714s] Invoked command in '/home/neural/Neural-Knights/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neural/Neural-Knights/build/articubot_one

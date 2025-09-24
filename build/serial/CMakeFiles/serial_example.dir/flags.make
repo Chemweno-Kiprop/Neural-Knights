@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chemweno/Neural-Knights/src/serial/include
+CXX_INCLUDES = -I/home/neural/Neural-Knights/src/serial/include
 
 CXX_FLAGS = 
 

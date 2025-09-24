@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/src/articubot_one/launch/navigation_launch.py
+/home/neural/Neural-Knights/src/articubot_one/launch/navigation_launch.py

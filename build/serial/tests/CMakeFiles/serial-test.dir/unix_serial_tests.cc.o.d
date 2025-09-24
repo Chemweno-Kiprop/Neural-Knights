@@ -1,5 +1,5 @@
 tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o: \
- /home/chemweno/Neural-Knights/src/serial/tests/unix_serial_tests.cc \
+ /home/neural/Neural-Knights/src/serial/tests/unix_serial_tests.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -294,9 +294,9 @@ tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o: \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/config/pragma_message.hpp \
- /home/chemweno/Neural-Knights/src/serial/include/serial/serial.h \
+ /home/neural/Neural-Knights/src/serial/include/serial/serial.h \
  /usr/include/c++/11/cstring \
- /home/chemweno/Neural-Knights/src/serial/include/serial/v8stdint.h \
+ /home/neural/Neural-Knights/src/serial/include/serial/v8stdint.h \
  /usr/include/pty.h /usr/include/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \

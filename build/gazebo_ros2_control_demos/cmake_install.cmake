@@ -1,8 +1,8 @@
-# Install script for directory: /home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos
+# Install script for directory: /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chemweno/Neural-Knights/install/gazebo_ros2_control_demos")
+  set(CMAKE_INSTALL_PREFIX "/home/neural/Neural-Knights/install/gazebo_ros2_control_demos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/neural/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/neural/Neural-Knights/build/gazebo_ros2_control_demos/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

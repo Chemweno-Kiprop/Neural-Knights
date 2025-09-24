@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_environment_hooks/local_setup.bash
+/home/neural/Neural-Knights/build/gazebo_ros2_control_demos/ament_cmake_environment_hooks/local_setup.bash

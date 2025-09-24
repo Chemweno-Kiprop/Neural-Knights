@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chemweno/Neural-Knights/src/diffdrive_arduino/src/fake_robot.cpp" "CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o" "gcc" "CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o.d"
-  "/home/chemweno/Neural-Knights/src/diffdrive_arduino/src/wheel.cpp" "CMakeFiles/fake_robot.dir/src/wheel.cpp.o" "gcc" "CMakeFiles/fake_robot.dir/src/wheel.cpp.o.d"
+  "/home/neural/Neural-Knights/src/diffdrive_arduino/src/fake_robot.cpp" "CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o" "gcc" "CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o.d"
+  "/home/neural/Neural-Knights/src/diffdrive_arduino/src/wheel.cpp" "CMakeFiles/fake_robot.dir/src/wheel.cpp.o" "gcc" "CMakeFiles/fake_robot.dir/src/wheel.cpp.o.d"
   )
 
 # Targets to which this target links.

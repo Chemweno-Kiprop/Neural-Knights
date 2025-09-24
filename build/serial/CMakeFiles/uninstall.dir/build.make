@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chemweno/Neural-Knights/src/serial
+CMAKE_SOURCE_DIR = /home/neural/Neural-Knights/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chemweno/Neural-Knights/build/serial
+CMAKE_BINARY_DIR = /home/neural/Neural-Knights/build/serial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/chemweno/Neural-Knights/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chemweno/Neural-Knights/src/serial /home/chemweno/Neural-Knights/src/serial /home/chemweno/Neural-Knights/build/serial /home/chemweno/Neural-Knights/build/serial /home/chemweno/Neural-Knights/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/neural/Neural-Knights/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neural/Neural-Knights/src/serial /home/neural/Neural-Knights/src/serial /home/neural/Neural-Knights/build/serial /home/neural/Neural-Knights/build/serial /home/neural/Neural-Knights/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

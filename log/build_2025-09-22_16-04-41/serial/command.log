@@ -1,6 +1,0 @@
-Invoking command in '/home/chemweno/Neural-Knights/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chemweno/Neural-Knights/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chemweno/Neural-Knights/install/serial
-Invoked command in '/home/chemweno/Neural-Knights/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chemweno/Neural-Knights/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chemweno/Neural-Knights/install/serial
-Invoking command in '/home/chemweno/Neural-Knights/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/serial -- -j4 -l4
-Invoked command in '/home/chemweno/Neural-Knights/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chemweno/Neural-Knights/build/serial -- -j4 -l4
-Invoking command in '/home/chemweno/Neural-Knights/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/serial
-Invoked command in '/home/chemweno/Neural-Knights/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chemweno/Neural-Knights/build/serial

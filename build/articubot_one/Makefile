@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chemweno/Neural-Knights/src/articubot_one
+CMAKE_SOURCE_DIR = /home/neural/Neural-Knights/src/articubot_one
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chemweno/Neural-Knights/build/articubot_one
+CMAKE_BINARY_DIR = /home/neural/Neural-Knights/build/articubot_one
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chemweno/Neural-Knights/build/articubot_one/CMakeFiles /home/chemweno/Neural-Knights/build/articubot_one//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neural/Neural-Knights/build/articubot_one/CMakeFiles /home/neural/Neural-Knights/build/articubot_one//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chemweno/Neural-Knights/build/articubot_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neural/Neural-Knights/build/articubot_one/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

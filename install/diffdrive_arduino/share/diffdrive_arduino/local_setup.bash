@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/build/diffdrive_arduino/ament_cmake_environment_hooks/local_setup.bash
+/home/neural/Neural-Knights/build/diffdrive_arduino/ament_cmake_environment_hooks/local_setup.bash

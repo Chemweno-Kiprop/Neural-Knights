@@ -1,8 +1,8 @@
-# Install script for directory: /home/chemweno/Neural-Knights/src/serial
+# Install script for directory: /home/neural/Neural-Knights/src/serial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chemweno/Neural-Knights/install/serial")
+  set(CMAKE_INSTALL_PREFIX "/home/neural/Neural-Knights/install/serial")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,12 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/chemweno/Neural-Knights/build/serial/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/neural/Neural-Knights/build/serial/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chemweno/Neural-Knights/build/serial/tests/cmake_install.cmake")
+  include("/home/neural/Neural-Knights/build/serial/tests/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chemweno/Neural-Knights/build/serial/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/neural/Neural-Knights/build/serial/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

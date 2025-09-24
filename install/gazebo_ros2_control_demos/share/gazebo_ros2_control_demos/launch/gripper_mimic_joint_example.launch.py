@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos/launch/gripper_mimic_joint_example.launch.py
+/home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos/launch/gripper_mimic_joint_example.launch.py

@@ -1,1 +1,1 @@
-/home/chemweno/Neural-Knights/src/articubot_one/launch/launch_robot.launch.py
+/home/neural/Neural-Knights/src/articubot_one/launch/launch_robot.launch.py
