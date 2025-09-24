@@ -1,0 +1,136 @@
+[0.049s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/gazebo_ros2_control_demos
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.540s] -- The CXX compiler identification is GNU 11.4.0
+[0.576s] -- Detecting C compiler ABI info
+[0.862s] -- Detecting C compiler ABI info - done
+[0.897s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.898s] -- Detecting C compile features
+[0.900s] -- Detecting C compile features - done
+[0.913s] -- Detecting CXX compiler ABI info
+[1.252s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.297s] -- Detecting CXX compile features
+[1.299s] -- Detecting CXX compile features - done
+[1.316s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.431s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.644s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.677s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.724s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.525s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.734s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.749s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.139s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.263s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.507s] -- Looking for pthread.h
+[4.816s] -- Looking for pthread.h - found
+[4.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.135s] -- Found Threads: TRUE  
+[5.353s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.442s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.454s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.863s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.881s] -- Configured cppcheck include dirs: 
+[5.881s] -- Configured cppcheck exclude dirs and/or files: 
+[5.893s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.893s] -- Configured cpplint exclude dirs and/or files: 
+[5.897s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.901s] -- Added test 'lint_cmake' to check CMake code style
+[5.905s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.915s] -- Added test 'uncrustify' to check C / C++ code style
+[5.916s] -- Configured uncrustify additional arguments: 
+[5.919s] -- Added test 'xmllint' to check XML markup files
+[5.926s] -- Configuring done
+[6.057s] -- Generating done
+[6.119s] -- Build files have been written to: /home/neural/Neural-Knights/build/gazebo_ros2_control_demos
+[6.177s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/gazebo_ros2_control_demos
+[6.185s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/neural/Neural-Knights/build/gazebo_ros2_control_demos -- -j4 -l4
+[6.474s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[6.485s] [ 14%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[6.505s] [ 28%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[6.506s] [ 28%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[36.362s] [ 35%] [32m[1mLinking CXX executable example_velocity[0m
+[37.204s] [ 42%] [32m[1mLinking CXX executable example_effort[0m
+[37.738s] [ 42%] Built target example_velocity
+[37.868s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[38.409s] [ 57%] [32m[1mLinking CXX executable example_gripper[0m
+[38.595s] [ 57%] Built target example_effort
+[38.735s] [ 64%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[39.726s] [ 64%] Built target example_gripper
+[39.849s] [ 71%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[39.911s] [ 78%] [32m[1mLinking CXX executable example_position[0m
+[41.447s] [ 78%] Built target example_position
+[60.791s] [ 85%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[61.708s] [ 85%] Built target example_tricycle_drive
+[65.021s] [ 92%] [32m[1mLinking CXX executable example_diff_drive[0m
+[65.346s] [100%] [32m[1mLinking CXX executable example_position_pid[0m
+[65.894s] [100%] Built target example_diff_drive
+[66.334s] [100%] Built target example_position_pid
+[66.383s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/neural/Neural-Knights/build/gazebo_ros2_control_demos -- -j4 -l4
+[66.390s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/neural/Neural-Knights/build/gazebo_ros2_control_demos
+[66.420s] -- Install configuration: ""
+[66.423s] -- Execute custom install script
+[66.426s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[66.479s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[66.514s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[66.557s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[66.590s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[66.624s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[66.657s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[66.691s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[66.724s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[66.757s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[66.789s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[66.822s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[66.855s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[66.891s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[66.926s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[66.962s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[66.996s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[67.029s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[67.061s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[67.093s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[67.128s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[67.160s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[67.193s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[67.229s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[67.261s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[67.293s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[67.328s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[67.361s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[67.393s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[67.426s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[67.460s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[67.493s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[67.526s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[67.558s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[67.590s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[67.624s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[67.659s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[67.692s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[67.728s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[67.761s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[67.795s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[67.829s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[67.862s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[67.895s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[67.936s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[67.977s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[68.014s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[68.049s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[68.086s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[68.127s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[68.168s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[68.205s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[68.249s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[68.284s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[68.319s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[68.352s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[68.387s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[68.434s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control:/home/neural/Neural-Knights/install/diffdrive_arduino:/home/neural/Neural-Knights/install/serial:/home/neural/Neural-Knights/install/gazebo_ros2_control_demos:/home/neural/Neural-Knights/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/neural/Neural-Knights/install/gazebo_ros2_control/lib:/home/neural/Neural-Knights/install/diffdrive_arduino/lib:/home/neural/Neural-Knights/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/neural/Neural-Knights/build/gazebo_ros2_control_demos

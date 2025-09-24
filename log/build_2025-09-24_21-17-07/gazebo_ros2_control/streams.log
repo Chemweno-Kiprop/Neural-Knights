@@ -1,0 +1,166 @@
+[0.089s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/gazebo_ros2_control
+[0.384s] -- The C compiler identification is GNU 11.4.0
+[0.737s] -- The CXX compiler identification is GNU 11.4.0
+[0.810s] -- Detecting C compiler ABI info
+[1.177s] -- Detecting C compiler ABI info - done
+[1.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.225s] -- Detecting C compile features
+[1.227s] -- Detecting C compile features - done
+[1.250s] -- Detecting CXX compiler ABI info
+[1.729s] -- Detecting CXX compiler ABI info - done
+[1.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.806s] -- Detecting CXX compile features
+[1.819s] -- Detecting CXX compile features - done
+[1.827s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.655s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.089s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.307s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[3.328s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.719s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.751s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.809s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.246s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.271s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.548s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.063s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.300s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.350s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.496s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.722s] -- Looking for pthread.h
+[8.614s] -- Looking for pthread.h - found
+[8.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.681s] -- Found Threads: TRUE  
+[10.936s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[11.405s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[11.466s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[11.487s] -- Checking for module 'bullet>=2.82'
+[11.648s] --   Found bullet, version 3.05
+[12.659s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[12.990s] -- Found assimp: /usr/include (found version "5.2.0") 
+[13.118s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[13.391s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[13.527s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[13.566s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.614s] -- Searching for dependencies of ignition-math6
+[13.626s] -- Looking for OGRE...
+[13.629s] -- OGRE_PREFIX_WATCH changed.
+[13.675s] -- Checking for module 'OGRE'
+[13.767s] --   Found OGRE, version 1.9.0
+[13.977s] -- Found Ogre Ghadamon (1.9.0)
+[14.035s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[14.124s] -- Looking for OGRE_Paging...
+[14.177s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[14.178s] -- Looking for OGRE_Terrain...
+[14.228s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[14.230s] -- Looking for OGRE_Property...
+[14.277s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[14.279s] -- Looking for OGRE_RTShaderSystem...
+[14.352s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[14.354s] -- Looking for OGRE_Volume...
+[14.401s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[14.403s] -- Looking for OGRE_Overlay...
+[14.453s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[15.547s] -- Looking for ignition-math6 -- found version 6.15.1
+[15.564s] -- Looking for ignition-transport8 -- found version 8.2.1
+[15.567s] -- Searching for dependencies of ignition-transport8
+[15.687s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[15.763s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[15.796s] -- Checking for module 'libzmq >= 4'
+[15.874s] --   Found libzmq , version 4.3.4
+[16.095s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[16.127s] -- Checking for module 'uuid'
+[16.207s] --   Found uuid, version 2.37.2
+[16.411s] -- Found UUID: TRUE  
+[16.427s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[16.431s] -- Searching for dependencies of ignition-msgs5
+[16.556s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.594s] -- Checking for module 'tinyxml2'
+[16.677s] --   Found tinyxml2, version 9.0.0
+[16.881s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[16.898s] -- Looking for ignition-common3 -- found version 3.14.0
+[16.901s] -- Searching for dependencies of ignition-common3
+[16.903s] -- Looking for dlfcn.h - found
+[16.909s] -- Looking for libdl - found
+[16.918s] -- Found DL: TRUE  
+[17.004s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[17.010s] -- Searching for <ignition-common3> component [graphics]
+[17.031s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[17.035s] -- Searching for dependencies of ignition-common3-graphics
+[17.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.059s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[17.063s] -- Searching for dependencies of ignition-fuel_tools4
+[17.431s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[17.482s] -- Checking for module 'jsoncpp'
+[17.537s] --   Found jsoncpp, version 1.9.5
+[17.683s] -- Found JSONCPP: TRUE  
+[17.709s] -- Checking for module 'libzip'
+[17.762s] --   Found libzip, version 1.7.3
+[17.920s] -- Found ZIP: TRUE  
+[17.922s] -- Looking for ignition-common3 -- found version 3.14.0
+[17.924s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.927s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[17.944s] -- Gazebo version: 11.10
+[17.946s] -- Checking for module 'tbb'
+[18.004s] --   Found tbb, version 2021.5.0
+[18.162s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[18.205s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[18.307s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[18.317s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.758s] -- Configured cppcheck include dirs: /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control/include
+[18.759s] -- Configured cppcheck exclude dirs and/or files: 
+[18.764s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.765s] -- Configured cpplint exclude dirs and/or files: 
+[18.769s] -- Added test 'lint_cmake' to check CMake code style
+[18.775s] -- Added test 'uncrustify' to check C / C++ code style
+[18.776s] -- Configured uncrustify additional arguments: 
+[18.779s] -- Added test 'xmllint' to check XML markup files
+[18.795s] -- Configuring done
+[19.012s] -- Generating done
+[19.083s] -- Build files have been written to: /home/neural/Neural-Knights/build/gazebo_ros2_control
+[19.153s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neural/Neural-Knights/install/gazebo_ros2_control
+[19.162s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/neural/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[19.408s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[19.436s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[104.875s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[107.072s] [ 75%] Built target gazebo_hardware_plugins
+[112.815s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[115.733s] [100%] Built target gazebo_ros2_control
+[115.778s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/neural/Neural-Knights/build/gazebo_ros2_control -- -j4 -l4
+[115.786s] Invoking command in '/home/neural/Neural-Knights/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/neural/Neural-Knights/build/gazebo_ros2_control
+[115.814s] -- Install configuration: ""
+[115.816s] -- Execute custom install script
+[115.818s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[115.853s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[115.888s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[115.920s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[115.955s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[115.988s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[116.020s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[116.053s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[116.088s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[116.121s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[116.155s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[116.188s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[116.220s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[116.256s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[116.290s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[116.323s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[116.359s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[116.392s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[116.426s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[116.460s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[116.494s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[116.528s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[116.561s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[116.595s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[116.628s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[116.661s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[116.693s] -- Symlinking: /home/neural/Neural-Knights/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[116.733s] Invoked command in '/home/neural/Neural-Knights/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/neural/Neural-Knights/build/gazebo_ros2_control
