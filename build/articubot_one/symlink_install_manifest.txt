@@ -23,6 +23,7 @@
 /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/worlds/empty.world
 /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/worlds/world1.world
+/home/neural/Neural-Knights/install/articubot_one/share/articubot_one/worlds/world2.world
 /home/neural/Neural-Knights/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
 /home/neural/Neural-Knights/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
 /home/neural/Neural-Knights/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh

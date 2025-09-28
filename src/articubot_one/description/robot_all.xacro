@@ -213,7 +213,7 @@
             <geometry>
                 <cylinder radius="${caster_wheel_radius}" length="${caster_wheel_thickness}" />
             </geometry>
-        <material name="white" />
+        <material name="whiste" />
         </visual>
         <collision>
             <geometry>
