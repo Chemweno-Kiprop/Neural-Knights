@@ -1,1 +1,0 @@
-/home/neural/Neural-Knights/src/gazebo_ros2_control/gazebo_ros2_control_demos/launch/diff_drive_pair_namespaced.launch.py

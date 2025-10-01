@@ -1,1 +1,0 @@
-/home/neural/Neural-Knights/src/articubot_one/launch/localization_launch.py

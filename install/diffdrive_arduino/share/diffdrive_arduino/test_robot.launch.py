@@ -1,1 +1,0 @@
-/home/neural/Neural-Knights/src/diffdrive_arduino/launch/test_robot.launch.py

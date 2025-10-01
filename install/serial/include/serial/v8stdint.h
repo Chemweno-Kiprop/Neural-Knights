@@ -1,1 +1,0 @@
-/home/neural/Neural-Knights/src/serial/include/serial/v8stdint.h
